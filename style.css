@@ -624,4 +624,23 @@
     font-size: 9px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about_us .para-div {
+    width: 100%;
+    height: auto;
+    margin-top: 25px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .about_us .para-div h3 {
+    text-align: center;
+  }
+  .about_us .para-div h5 {
+    padding: 7px 7px !important;
+    background-color: rgba(127, 127, 182, 0.534);
+    text-align: center;
+    border-radius: 10px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
