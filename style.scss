@@ -675,7 +675,8 @@
     
                             display: flex;
                             justify-content: center;
-                            align-items: center;
+                            align-items: flex-start;
+                            margin-top: 30px;
     
                             .profile-pic-div-1{
                                 width: 97% !important;
@@ -741,7 +742,8 @@
     
                             display: flex;
                             justify-content: center;
-                            align-items: center;
+                            align-items: flex-start;
+                            margin-top: 30px;
     
                             .profile-content-div{
                                 width: 100%;

@@ -540,9 +540,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 30px;
   }
   .modal .modal-dialog .modal-content .modal-body .modal-content-div .modal-item-1 .profile-pic-div-1 {
     width: 97% !important;
@@ -585,9 +586,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 30px;
   }
   .modal .modal-dialog .modal-content .modal-body .modal-content-div .modal-item-2 .profile-content-div {
     width: 100%;
