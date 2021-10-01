@@ -35,6 +35,20 @@
 .about_us .para-div {
   width: 100%;
   height: auto;
+  margin-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.about_us .para-div h3 {
+  text-align: center;
+}
+
+.about_us .para-div h5 {
+  padding: 20px 20px;
+  background-color: rgba(127, 127, 182, 0.534);
+  text-align: center;
+  border-radius: 10px;
 }
 
 .about_us .profile-cards-div {
@@ -90,7 +104,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-1 .item-1 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +124,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-1 .item-2 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,7 +144,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-1 .item-3 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +164,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-1 .item-4 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +198,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-2 .item-1 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,7 +218,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-2 .item-2 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,7 +238,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-2 .item-3 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,7 +258,7 @@
 .about_us .profile-cards-div .card-items-div .flex-row-2 .item-4 {
   width: 24%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(107, 117, 172, 0.5);
   background-image: url("./random-8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,8 +467,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  .cards-heading-div {
+    position: relative;
+    top: 20px;
+  }
   .item-1 {
-    margin-top: 20px !important;
     width: 90% !important;
   }
   .item-2 {
@@ -488,7 +505,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .about_us.heading-div.h1 {
+  .about_us .heading-div h1 {
     font-size: 50px !important;
     background-color: rgba(0, 0, 0, 0.562) !important;
   }

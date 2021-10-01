@@ -41,7 +41,21 @@
     .para-div{
         width: 100%;
         height: auto;
+        margin-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
         // border: 1px solid blueviolet;
+
+        h3{
+            text-align: center;
+        }
+
+        h5{
+            padding: 20px 20px;
+            background-color: rgba(127, 127, 182, 0.534);
+            text-align: center;
+            border-radius: 10px;
+        }
     }
 
     .profile-cards-div{
@@ -83,7 +97,7 @@
                 .item-1{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
                     background-image: url('./random-1.jpg');
                     background-repeat: no-repeat;
@@ -104,7 +118,7 @@
                 .item-2{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
                     background-image: url('./random-2.jpg');
                     background-repeat: no-repeat;
@@ -126,7 +140,7 @@
                 .item-3{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
                     background-image: url('./random-3.jpg');
                     background-repeat: no-repeat;
@@ -148,7 +162,7 @@
                 .item-4{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
 
                     background-image: url('./random-4.jpg');
@@ -257,7 +271,7 @@
                 .item-1{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
                     background-image: url('./random-5.jpg');
                     background-repeat: no-repeat;
@@ -280,7 +294,7 @@
                 .item-2{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
 
                     background-image: url('./random-6.jpg');
@@ -303,7 +317,7 @@
                 .item-3{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
                     background-image: url('./random-7.jpg');
                     background-repeat: no-repeat;
@@ -325,7 +339,7 @@
                 .item-4{
                     width: 24%;
                     height: 300px;
-                    border:1px solid black;
+                    border:1px solid rgba(107, 117, 172, 0.5);
 
                     background-image: url('./random-8.jpg');
                     background-repeat: no-repeat;
@@ -574,8 +588,14 @@
 
 
   @media screen and (max-width: 480px) {
+
+
+    .cards-heading-div{
+        position: relative;
+        top: 20px;
+    }
+
     .item-1{
-        margin-top: 20px !important;
         width: 90% !important;
    
     }
@@ -622,10 +642,17 @@
 
   @media screen and (max-width: 480px) {
 
-    .about_us.heading-div.h1{
-        font-size: 50px !important;
-        background-color: rgba(0, 0, 0, 0.562) !important;
+    .about_us{
+        .heading-div{
+            h1{
+                font-size: 50px !important;
+                background-color: rgba(0, 0, 0, 0.562) !important;
+            }
+
+        }
     }
+
+  
 
   }
 
