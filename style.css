@@ -21,23 +21,25 @@
   background-size: cover;
 }
 
-.about_us .heading-div h1 {
-  text-align: center;
-  font-size: 100px;
-  color: white;
+.about_us .heading-div .h1-background {
+  background-color: rgba(0, 0, 0, 0.562);
   width: 100%;
 }
 
-.about_us .heading-div h1:hover {
-  background-color: rgba(0, 0, 0, 0.562);
+.about_us .heading-div .h1-background h1 {
+  font-size: 100px;
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
 .about_us .para-div {
   width: 100%;
   height: auto;
   margin-top: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 170px;
+  padding-right: 170px;
+  margin-bottom: 50px;
 }
 
 .about_us .para-div h3 {
@@ -505,9 +507,8 @@
 }
 
 @media screen and (max-width: 480px) {
-  .about_us .heading-div h1 {
+  .about_us .heading-div .h1-background h1 {
     font-size: 50px !important;
-    background-color: rgba(0, 0, 0, 0.562) !important;
   }
 }
 

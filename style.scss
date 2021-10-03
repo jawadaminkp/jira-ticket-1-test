@@ -20,18 +20,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        h1{
 
-        text-align: center;
+        .h1-background{
+
+            background-color: rgba(0, 0, 0, 0.562);
+            width: 100%;
+
+      
+
+            h1{
             font-size: 100px;
             color: white;
             width: 100%;
-
-            &:hover{
-                background-color: rgba(0, 0, 0, 0.562);
+            text-align: center;
+            
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
             }
         }
+        
+ 
 
         background-image: url('./about-us_bg.jpg');
         background-repeat: no-repeat;
@@ -42,9 +51,10 @@
         width: 100%;
         height: auto;
         margin-top: 20px;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 170px;
+        padding-right: 170px;
         // border: 1px solid blueviolet;
+        margin-bottom: 50px;
 
         h3{
             text-align: center;
@@ -646,10 +656,15 @@
 
     .about_us{
         .heading-div{
-            h1{
-                font-size: 50px !important;
-                background-color: rgba(0, 0, 0, 0.562) !important;
+
+            .h1-background{
+
+
+                h1{
+                    font-size: 50px !important;
+                }
             }
+
 
         }
     }
